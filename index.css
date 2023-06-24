@@ -12,11 +12,6 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: var(--body-bg-color);
-    padding: 20px;
-}
-
 h1 {
     margin: 0;
     font-weight: 700;
@@ -32,11 +27,10 @@ h3 {
     background-color: var(--bg-cards);
     padding: 20px;
     border-radius: 20px;
-    width: 328px;
+    width: 348px;
     height: 292px;
     text-align: center;
     margin: 50px;
-    margin-top: 0;
 }
 
 .profile-image {
@@ -62,16 +56,33 @@ h3 {
     margin-top: 10px;
 }
 
-.project-card {
+.links-cards {
     background-color: var(--bg-cards);
     padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 348px;
+    height: 348px;
+    text-align: center;
+    margin: 50px;
 }
 
-.project-card a {
+.link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    margin-left: 40px;
+}
+
+.link a {
     color: var(--text-color);
     text-decoration: none;
+    font-size: 16px;
 }
 
 footer {
