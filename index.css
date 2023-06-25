@@ -61,7 +61,7 @@ h3 {
     padding: 20px;
     border-radius: 20px;
     width: 348px;
-    height: 348px;
+    height: auto;
     text-align: center;
     margin: 50px;
 }
@@ -69,7 +69,7 @@ h3 {
 .link {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin: 0;
 }
 
 .link img {
@@ -83,6 +83,35 @@ h3 {
     color: var(--text-color);
     text-decoration: none;
     font-size: 16px;
+}
+
+.technologies-card {
+    background-color: var(--bg-cards);
+    padding: 20px;
+    border-radius: 20px;
+    width: 348px;
+    height: auto;
+    text-align: center;
+    margin: 50px;
+}
+
+.technologies-card h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.technology {
+    background-color: var(--bg-techs);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 5px;
 }
 
 footer {
