@@ -114,6 +114,24 @@ h3 {
     margin: 5px;
 }
 
+.experiences-card {
+    background-color: var(--bg-cards);
+    padding: 20px;
+    border-radius: 20px;
+    width: 348px;
+    height: auto;
+    margin: 50px;
+}
+
+.education-card {
+    background-color: var(--bg-cards);
+    padding: 20px;
+    border-radius: 20px;
+    width: 348px;
+    height: auto;
+    margin: 50px;
+}
+
 footer {
     background-color: var(--bg-cards);
     padding: 10px;
