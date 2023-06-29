@@ -6,109 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roger's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section id="profile">
-            <div class="profile-card">
-                <div class="profile-image">
+    <div class="container">
+         <!-- início profile-->
+        <div class="profile">
+            <div class="photo">
+                <span class="dot-photo">
                     <img src="./assets/avatar.png" alt="Foto de perfil">
-                </div>
-                <h2>Roger Correa de Mello Junior</h2>
-                <p>Desenvolvedor Web</p>
+                </span>
+             <p class="name">Roger Correa de Mello Junior</p>
+
+             <p class="ocupation">Desenvolvedor Web</p>
             </div>
-        </section>
+            <!--fim profile-->
 
-        <section id="links">
-            <div class="links-cards">
-                <div class="link">
-                    <img src="./assets/map-pin.svg" alt="map">
-                    <p>Curitiba, Paraná</p>
-                </div>
-                
-                <div class="link">
-                    <img src="./assets/briefcase.svg" alt="work">
-                    <p>Freelancer</p>
-                </div>
+            <!--início links-->
+            <div class="social">
+                <span class="socials">
+                    <div class="location">
+                        <img src="./assets/map-pin.svg" alt="map">
+                        <p>Curitiba, Paraná</p>
+                    </div>     
 
-                <div class="link">
-                    <a href="https://www.github.com/rmeiio" target="_blank"><img src="./assets/github.svg" alt="github"></a>
-                    <p>RmeIIo</p>
-                </div>
+                    <div class="job">
+                        <img src="./assets/briefcase.svg" alt="work">
+                        <p>Freelancer</p>
+                    </div>
 
-                <div class="link">
-                    <a href="https://www.linkedin.com/in/rmeiio/" target="_blank"><img src="./assets/linkedin.svg" alt="LinkedIn"></a>
-                    <p>roger-correa-de-mello-junior</p>
-                </div>
+                    <div class="github">
+                        <a href="https://www.github.com/rmeiio" target="_blank"><img src="./assets/github.svg" alt="github"></a>
+                        <p>RmeIIo</p>
+                    </div>
 
-                <div class="link">
-                    <img src="./assets/mail.svg" alt="email">
-                    <p>j.rogercorreamello@gmail.com</p>
-                </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/rmeiio/" target="_blank"><img src="./assets/linkedin.svg" alt="LinkedIn"></a>
+                        <p>roger-correa-de-mello-junior</p>
+                    </div>
+
+                    <div class="email">
+                        <img src="./assets/mail.svg" alt="email">
+                        <p>j.rogercorreamello@gmail.com</p>
+                    </div>
+                </span>
             </div>
-        </section>
-    
-        <section id="technologies">
-            <div class="technologies-card">
-                <h3>Tecnologias</h3>
-                <div class="technologies-list">
+            <!--fim links-->   
+
+            <!--início tecnologias-->
+            <div class="technologies">
+                <div class="title-techs">
+                    <p>Tecnologias</p>
+                </div>
+                <section class="techs">
                     <div class="technology">HTML</div>
                     <div class="technology">CSS</div>
                     <div class="technology">JAVASCRIPT</div>
                     <div class="technology">PYTHON</div>
                     <div class="technology">GIT</div>
                     <div class="technology">FIGMA</div>
+                </section>
+            </div>
+            <!--fim tecnologias-->
+
+            <!--inicio experiencia-->
+            <div class="experiences">
+                <div class="title-experiences">
+                    Experiência
                 </div>
+                <section>
+                    <div class="companies">
+                        <span class="dot"></span>
+                        <div class="companies-names">
+                            <p>Freelancer</p>
+                            <p>Fev 2023 - Atualmente</p>
+                            <p>Desenvolvedor de projetos individuais</p>
+                        </div>
+                    </div>
+                </section>    
             </div>
-        </section>
+             <!--fim experiencia-->
 
-        <section id="experiences">
-            <div class="experiences-card">
-                <h3>Experiência</h3>
-                <ul>
-                    <li>
-                        <strong>Freelancer</strong> <br>
-                        <span>Fev 2023 - Presente</span> <br>
-                        Desenvolvedor de projetos individuais
-                    </li>
-                </ul>
+            <!--inicio educação-->
+            <div class="education">
+                <div class="title-educations">
+                    Educação
+                </div>
+                <section>
+                    <div class="schools">
+                        <span class="dot"></span>
+                        <div class="school-names">
+                            <p>Universidade Positivo</p>
+                            <p>Fev 2023 - Presente</p>
+                            <p>Análise e Desenvolvimento de Sistemas</p>
+                        </div>
+                    </div>
+
+                    <div class="schools">
+                        <span class="dot"></span>
+                        <div class="school-names">
+                            <p>Curso em Vídeo</p>
+                            <p>2023</p>
+                            <p>Python</p>
+                        </div>
+                    </div>
+
+                    <div class="schools">
+                        <span class="dot"></span>
+                        <div class="school-names">
+                            <p>Rocketseat</p>
+                            <p>2023</p>
+                            <p>HTML, CSS e JavaScript</p>
+                        </div>
+                    </div>
+
+                </section>
             </div>
-        </section>
+        </div>
+        
+        <span class="space">
 
-        <section id="education">
-            <div class="education-card">
-                <h3>Educação</h3>
-                <ul>
-                    <li>
-                        <strong>Universidade Positivo</strong> <br>
-                        <span>Análise e Desenvolvimento de sistemas</span> <br>
-                        <i>Fev 2023 - Presente</i>
-                    </li>
+        </span>
+            <!--fim educação-->
 
-                    <li>
-                        <p></p>
-                        <strong>Curso em Vídeo</strong> <br>
-                        <span>Python</span> <br>
-                    </li>
-
-                    <li>
-                        <p></p>
-                        <strong>Rocketseat</strong> <br>
-                        <span>HTML, CSS e JavaScript</span> <br>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="myProjects">
+            <!--inicio header projetos-->
+            <section id="myProjects">
             <div class="project-card">
                 <h3>Meus Projetos</h3>
             </div>
-        </section>
-
-    </main>
+            </section>
+            <!--fim header projetos-->
+        </div>        
 </body>
 </html>
